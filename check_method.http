@@ -1,0 +1,13 @@
+POST http://127.0.0.1:5000/perform_query/
+Accept: text/plain
+Content-Type: application/json
+
+{
+  "file_name": "apache_logs.txt",
+  "cmd1": "filter",
+  "value1": "POST",
+  "cmd2": "unique",
+  "value2": "",
+  "cmd3": "map",
+  "value3": "5"
+}
